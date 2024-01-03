@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.google-container {
+    text-align: center;
+}
+
+.google-logo img {
+    width: 500px; 
+    height: 200px; 
+}
+
+.search-bar {
+    margin-top: 16px;
+}
+
+#search-input {
+    padding: 8px;
+    width: 400px;
+}
+
+#search-button {
+    padding: 8px 16px;
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons-container {
+    margin-top: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
